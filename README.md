@@ -20,11 +20,11 @@ combinação entre os seletores
 
 :small_blue_diamond:Consulta paginada e ordenada (utilizar *skip*, *limit* e *sort*)<p>
 
-## Passo a Passo :footprints: 
+## Comandos utilizados na resolução das demandas :arrow_forward:
 
 Inicializei o mongo db através do Prompt de Comando do windows e inicializei a conexão com o Robot 3t, através da porta Reprograma local, criada em aula.
 
-### 1 - Inserção de documentos na collection
+### Inserção de documentos na collection
 
 Criei um arquivo .txt de séries que assisti durante a pandemia e inseri na collections que nomeei de series.
 
@@ -121,7 +121,7 @@ db.series.insertMany([
 ])
 ```
 
-### 2 - Atualização de documentos
+### Atualização de documentos
 
 ```
 db.getCollection('series').update(
@@ -135,13 +135,13 @@ db.getCollection('series').update(
   )
 ```
 
-### 3 - Exclusão de documentos
+### Exclusão de documentos
 
 ```
 db.series.remove({"Ano": "2020"})
 ```
 
-### 4 - Consulta com projeção
+### Consulta com projeção
 
 Séries ordenadas do ano mais recente ao mais antigo.
 ```
@@ -152,11 +152,11 @@ Séries ordenadas do ano mais antigo ao mais recente.
 db.getCollection("series").find().sort({"Ano": 1})
 ```
 
-### 5 - Consulta utilizando combinação entre os seletores
+### Consulta utilizando combinação entre os seletores
 ```
 db.getCollection("series").find({"Gênero":"Drama","Ano":"2019"})
 ```
-### 6 - Consulta paginada e ordenada
+### Consulta paginada e ordenada
 
 Consulta pela classificação etária, limitando em duas séries.
 ```
