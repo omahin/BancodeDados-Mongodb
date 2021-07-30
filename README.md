@@ -7,12 +7,18 @@ Reprograma :rocket: | Turma Online 12 | Back-end | 2021 | Introdução ao Banco 
 
 <p>Você deve criar um banco de dados novo (database) e uma coleção com um nome pertinente, de acordo com os dados e tema que você escolher. Os seguintes comandos devem ser feitos e entregues:
 
-* Inserção de documentos
-* Atualização de documentos
-* Exclusão de documentos
-* Consulta com projeção
-* Consulta utilizando combinação entre os seletores
-* Consulta paginada e ordenada (utilizar *skip*, *limit* e *sort*)<p>
+:small_blue_diamond: Inserção de documentos
+
+:small_blue_diamond: Atualização de documentos
+
+:small_blue_diamond: Exclusão de documentos
+
+:small_blue_diamond: Consulta com projeção
+
+:small_blue_diamond: Consulta utilizando 
+combinação entre os seletores
+
+:small_blue_diamond:Consulta paginada e ordenada (utilizar *skip*, *limit* e *sort*)<p>
 
 ## Passo a Passo :footprints: 
 
